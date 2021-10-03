@@ -57,8 +57,16 @@ div{
 .nav__link li a:hover{
     color: #F2B05E;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
-
+}
+.col{
+    padding:2rem;
+}
 .rmo{
     margin-left: 20px;
     padding: 9px 25px;
